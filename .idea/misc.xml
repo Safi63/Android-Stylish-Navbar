@@ -3,8 +3,11 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Kotlin Projects/Bottom Nav Bar/app/src/main/res/drawable/ic_baseline_message_24.xml" value="0.194" />
-        <entry key="..\:/Kotlin Projects/Bottom Nav Bar/app/src/main/res/layout/activity_main.xml" value="0.184375" />
+        <entry key="..\:/Kotlin Projects/Bottom Nav Bar/app/src/main/res/drawable/ic_baseline_message_24.xml" value="0.15" />
+        <entry key="..\:/Kotlin Projects/Bottom Nav Bar/app/src/main/res/drawable/ic_baseline_near_me_24.xml" value="0.143" />
+        <entry key="..\:/Kotlin Projects/Bottom Nav Bar/app/src/main/res/drawable/ic_baseline_person_24.xml" value="0.1" />
+        <entry key="..\:/Kotlin Projects/Bottom Nav Bar/app/src/main/res/drawable/ic_baseline_settings_24.xml" value="0.1" />
+        <entry key="..\:/Kotlin Projects/Bottom Nav Bar/app/src/main/res/layout/activity_main.xml" value="0.1" />
         <entry key="..\:/Kotlin Projects/Bottom Nav Bar/app/src/main/res/menu/nav_menu.xml" value="0.14" />
       </map>
     </option>
