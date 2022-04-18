@@ -12,7 +12,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        val appBarConfiguration = AppBarConfiguration(setOf(R.id.frame))
+//        val appBarConfiguration = AppBarConfiguration(setOf(R.id.frame))
 
     val homeFragment = HomeFragment()
     val profileFragment = ProfileFragment()

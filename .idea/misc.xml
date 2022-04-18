@@ -3,6 +3,7 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Kotlin Projects/Bottom Nav Bar/app/src/main/res/drawable/circle.xml" value="0.1" />
         <entry key="..\:/Kotlin Projects/Bottom Nav Bar/app/src/main/res/drawable/ic_baseline_home_24.xml" value="0.1" />
         <entry key="..\:/Kotlin Projects/Bottom Nav Bar/app/src/main/res/drawable/ic_baseline_message_24.xml" value="0.15" />
         <entry key="..\:/Kotlin Projects/Bottom Nav Bar/app/src/main/res/drawable/ic_baseline_near_me_24.xml" value="0.143" />
@@ -13,7 +14,7 @@
         <entry key="..\:/Kotlin Projects/Bottom Nav Bar/app/src/main/res/layout/activity_main.xml" value="0.1" />
         <entry key="..\:/Kotlin Projects/Bottom Nav Bar/app/src/main/res/layout/fragment_home.xml" value="0.1" />
         <entry key="..\:/Kotlin Projects/Bottom Nav Bar/app/src/main/res/layout/fragment_profile.xml" value="0.13768115942028986" />
-        <entry key="..\:/Kotlin Projects/Bottom Nav Bar/app/src/main/res/layout/fragment_tasbih.xml" value="0.13768115942028986" />
+        <entry key="..\:/Kotlin Projects/Bottom Nav Bar/app/src/main/res/layout/fragment_tasbih.xml" value="0.1" />
         <entry key="..\:/Kotlin Projects/Bottom Nav Bar/app/src/main/res/menu/nav_menu.xml" value="0.1" />
         <entry key="..\:/Kotlin Projects/Bottom Nav Bar/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1005" />
       </map>

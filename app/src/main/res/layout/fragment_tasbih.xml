@@ -3,13 +3,49 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:id="@+id/fullFrame"
     tools:context=".TasbihFragment">
 
+<!--    <TextView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:textSize="25sp"-->
+<!--        android:layout_centerInParent="true"-->
+<!--        android:textColor="@color/purple_700"-->
+<!--        android:text="Tasbih will be here" />-->
+
+    <ProgressBar
+        android:id="@+id/progress_bar"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_centerInParent="true"
+        android:indeterminateOnly="false"
+        android:progressDrawable="@drawable/circle"
+        android:progress="60" />
+
     <TextView
+        android:id="@+id/text_view_progress"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textSize="25sp"
-        android:textColor="@color/purple_700"
-        android:text="Tasbih will be here" />
+        android:layout_marginEnd="306dp"
+        android:textSize="35dp"
+        android:text="50"
+        android:textColor="@color/purple_500"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="436dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+    <Button
+        android:id="@+id/resetButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="100dp"
+        android:gravity="center_horizontal"
+        android:textSize="20sp"
+        android:layout_marginRight="50sp"
+        android:layout_marginLeft="50sp"
+        android:textColor="@color/purple_500"
+        android:text="Resest" />
 
 </RelativeLayout>
