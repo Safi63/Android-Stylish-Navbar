@@ -38,17 +38,31 @@
         android:layout_marginBottom="436dp"
         android:textAppearance="@style/TextAppearance.AppCompat.Large" />
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="115dp"
+        android:layout_marginRight="80dp"
+        android:layout_marginBottom="160dp"
+        android:text="Tap on anywhere"
+        android:textColor="@color/purple_500"
+        android:textSize="20sp"
+
+        />
+
     <Button
         android:id="@+id/resetButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:layout_marginBottom="100dp"
+        android:layout_marginBottom="85dp"
         android:gravity="center_horizontal"
         android:textSize="20sp"
+        android:backgroundTint="@color/purple_500"
         android:layout_marginRight="60sp"
         android:layout_marginLeft="60sp"
-        android:textColor="@color/purple_500"
+        android:textColor="@color/white"
         android:text="Resest" />
 
 </RelativeLayout>
