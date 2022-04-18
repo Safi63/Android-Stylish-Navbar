@@ -13,6 +13,7 @@ import androidx.navigation.fragment.findNavController
 class TasbihFragment : Fragment() {
 
     private var prog = 0
+    private var count = 0
     private var root : View? = null
 
 
@@ -24,6 +25,8 @@ class TasbihFragment : Fragment() {
         root = rootView
         updateProgressBar()
 
+        rootView.findViewById<TextView>(R.id.count).text = "Count: $count"
+
          rootView.findViewById<Button>(R.id.resetButton).setOnClickListener {
              resetValue()
          }
@@ -32,7 +35,12 @@ class TasbihFragment : Fragment() {
 
            if (prog < 100){
                prog += 1
-               updateProgressBar()}
+               updateProgressBar()
+           }else{
+               count ++
+               resetValue()
+               updateCounter()
+           }
         }
         return rootView
     }
@@ -49,4 +57,9 @@ class TasbihFragment : Fragment() {
         root?.findViewById<ProgressBar>(R.id.progress_bar)?.progress = prog
         root?.findViewById<TextView>(R.id.text_view_progress)?.text = "$prog"
        }
+
+    private fun updateCounter(){
+        root?.findViewById<TextView>(R.id.count)?.text = "Count: $count"
+        }
+
     }
