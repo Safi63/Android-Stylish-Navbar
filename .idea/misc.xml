@@ -4,15 +4,18 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Kotlin Projects/Bottom Nav Bar/app/src/main/res/drawable/circle.xml" value="0.1" />
+        <entry key="..\:/Kotlin Projects/Bottom Nav Bar/app/src/main/res/drawable/home_icon.xml" value="0.103" />
         <entry key="..\:/Kotlin Projects/Bottom Nav Bar/app/src/main/res/drawable/ic_baseline_home_24.xml" value="0.1" />
         <entry key="..\:/Kotlin Projects/Bottom Nav Bar/app/src/main/res/drawable/ic_baseline_message_24.xml" value="0.15" />
         <entry key="..\:/Kotlin Projects/Bottom Nav Bar/app/src/main/res/drawable/ic_baseline_near_me_24.xml" value="0.143" />
         <entry key="..\:/Kotlin Projects/Bottom Nav Bar/app/src/main/res/drawable/ic_baseline_person_24.xml" value="0.1" />
         <entry key="..\:/Kotlin Projects/Bottom Nav Bar/app/src/main/res/drawable/ic_baseline_settings_24.xml" value="0.1" />
         <entry key="..\:/Kotlin Projects/Bottom Nav Bar/app/src/main/res/drawable/ic_baseline_timer_24.xml" value="0.1005" />
+        <entry key="..\:/Kotlin Projects/Bottom Nav Bar/app/src/main/res/drawable/ic_email.xml" value="0.103" />
         <entry key="..\:/Kotlin Projects/Bottom Nav Bar/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1" />
+        <entry key="..\:/Kotlin Projects/Bottom Nav Bar/app/src/main/res/drawable/ic_lock.xml" value="0.1085" />
         <entry key="..\:/Kotlin Projects/Bottom Nav Bar/app/src/main/res/layout/activity_main.xml" value="0.1" />
-        <entry key="..\:/Kotlin Projects/Bottom Nav Bar/app/src/main/res/layout/fragment_home.xml" value="0.1" />
+        <entry key="..\:/Kotlin Projects/Bottom Nav Bar/app/src/main/res/layout/fragment_home.xml" value="0.22" />
         <entry key="..\:/Kotlin Projects/Bottom Nav Bar/app/src/main/res/layout/fragment_profile.xml" value="0.13768115942028986" />
         <entry key="..\:/Kotlin Projects/Bottom Nav Bar/app/src/main/res/layout/fragment_tasbih.xml" value="0.1" />
         <entry key="..\:/Kotlin Projects/Bottom Nav Bar/app/src/main/res/menu/nav_menu.xml" value="0.1" />
