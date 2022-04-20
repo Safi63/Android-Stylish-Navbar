@@ -1,23 +1,19 @@
 package com.example.bottom_navbar
 
 import android.os.Bundle
-import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.Button
 import android.widget.EditText
 import android.widget.Toast
-import androidx.fragment.app.FragmentTransaction
-import androidx.navigation.fragment.findNavController
-import com.google.android.material.bottomnavigation.BottomNavigationView
+import androidx.fragment.app.Fragment
 
 
 class HomeFragment : Fragment() {
 
-//    private var frag : FragmentTransaction =
-//    val fragTasbhi = TasbihFragment().onPrimaryNavigationFragmentChanged()
-
+    val tasbihFragment = TasbihFragment()
+    val a = MainActivity()
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -36,14 +32,9 @@ class HomeFragment : Fragment() {
                 Toast.makeText(context,"Please fill required fields",Toast.LENGTH_LONG).show()
             }else{
                 Toast.makeText(context,"${email} is logged in!",Toast.LENGTH_LONG).show()
+                (activity as MainActivity?)?.makeCurrentFragment(tasbihFragment)
             }
         }
         return rootView
     }
-
-//    private fun loadTasbih(fragment: Fragment) {
-//
-//        supportFragmentManager.beginTransaction().commit()
-//    }
-
 }

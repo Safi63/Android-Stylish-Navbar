@@ -33,7 +33,8 @@ class MainActivity : AppCompatActivity() {
 
     }
 
-    private fun makeCurrentFragment(fragment: Fragment) {
+    //This method can be called from HomeFragment.kt
+    public fun makeCurrentFragment(fragment: Fragment) {
         supportFragmentManager.beginTransaction().apply {
             replace(R.id.frame,fragment)
             commit()
